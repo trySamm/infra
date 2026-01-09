@@ -1,9 +1,9 @@
-# Loman AI - 24/7 AI Phone Answering System for Restaurants
+# SAMM AI - 24/7 AI Phone Answering System for Restaurants
 
-![Loman AI](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![SAMM AI](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-Loman AI is a production-ready, LLM-agnostic SaaS platform that provides 24/7 AI-powered phone answering for restaurants. Handle takeout orders, reservations, FAQs, and seamlessly escalate to human staff when needed.
+SAMM AI is a production-ready, LLM-agnostic SaaS platform that provides 24/7 AI-powered phone answering for restaurants. Handle takeout orders, reservations, FAQs, and seamlessly escalate to human staff when needed.
 
 ## Features
 
@@ -74,7 +74,7 @@ Loman AI is a production-ready, LLM-agnostic SaaS platform that provides 24/7 AI
 ### 1. Clone and Setup
 
 ```bash
-cd loman-ai
+cd SAMM-ai
 cp .env.example .env
 # Edit .env with your API keys
 ```
@@ -118,7 +118,7 @@ ngrok http 8080
 Open http://localhost:3000
 
 Default credentials:
-- Email: `admin@loman.ai`
+- Email: `admin@SAMM.ai`
 - Password: `admin123`
 
 ### 8. Place a Test Call
@@ -132,7 +132,7 @@ Call your Twilio phone number and try:
 ## Project Structure
 
 ```
-loman-ai/
+SAMM-ai/
 ├── services/
 │   ├── call-gateway-rust/     # Real-time call handling
 │   ├── api-python/            # Backend API & LLM adapter
